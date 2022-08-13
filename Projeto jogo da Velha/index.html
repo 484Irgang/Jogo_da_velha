@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jogo da velha</title>
+	<script src="js/functions.js"></script>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.center{
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.box-geral{
+			display: inline-block;
+			width: 600px;
+			height: 600px;
+		}
+		h2{
+			font-size: 20px;
+			padding: 5px;
+			border: 2px solid black;
+			border-radius: 10px;
+			font-family: monospace;
+			background-color: red;
+		}
+		.center h2:nth-of-type(2){
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+		<br>
+		<h2 style="float: left;">Player 1: <span class="jogador1"></span></h2>
+		<h2 style="float: right;">Player 2: <span class="jogador2"></span></h2>
+		<div style="clear: both;"></div>
+		<br>
+		<br>
+		<br>
+		<div class="box-geral">	
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="clear: both;"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="clear: both;"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="clear: both;"></div>
+		</div>	
+	</div>	
+</body>
+</html>
