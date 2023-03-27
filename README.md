@@ -2,7 +2,7 @@
 <p align="center"><img src="./img/Banner.png"/></p>
 
 <h1> :page_with_curl: Description</h1>
-<p align="center">Este projeto foi criado com o intuito de praticar algoritmos e lógica de programação com JS, feito ano passado e hoje(27/03/2023) foi feito uma leve maquiada para manter o repositório publico, apesar de ser um projeto simples foi meus primeiros passos com algo mais programável além de páginas estáticas.<br/><a href="https://484irgang.github.io/Projeto-jogo-da-velha/"><img src="./img/Button_link.png"/></a></p>
+<p align="center">Este projeto foi criado com o intuito de praticar algoritmos e lógica de programação com JS, feito ano passado e hoje(27/03/2023) foi feito uma leve maquiada para manter o repositório publico, apesar de ser um projeto simples foi meus primeiros passos com algo mais programável além de páginas estáticas.<br/><a href="https://484irgang.github.io/Jogo_da_velha/"><img src="./img/Button_link.png"/></a></p>
 
 <h1> :camera: Images</h1>
 <p align="center">
