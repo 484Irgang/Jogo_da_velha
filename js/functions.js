@@ -5,8 +5,8 @@ window.onload = function(){
 	alert('Ok vamos começar');
 	jogador1 = document.querySelector('.jogador1');
 	jogador2 = document.querySelector('.jogador2');
-	jogador1.innerText = p1;
-	jogador2.innerText = p2;
+	jogador1.innerText = p1 + " (X)";
+	jogador2.innerText = p2 + " (O)";
 	var player1 = {'nome':p1,'vez':true,'acao':[]};
 	var player2 = {'nome':p2,'vez':false,'acao':[]};
 	var campeao;
@@ -46,7 +46,7 @@ window.onload = function(){
 			boxes[p].onclick = function(){
 				indexAtual = boxes.indexOf(this);
 				if(player1.acao.indexOf(indexAtual) == -1 && player2.acao.indexOf(indexAtual) == -1){
-					this.style.backgroundColor = 'red';
+					this.style.backgroundImage = "url('../img/xis.png')";
 					player1.acao.push(indexAtual);
 					calcularResultado(player1.acao,arrBase.res1,player1.nome);
 					calcularResultado(player1.acao,arrBase.res2,player1.nome);
@@ -72,7 +72,7 @@ window.onload = function(){
 			boxes[p].onclick = function(){
 				indexAtual = boxes.indexOf(this);
 				if(player2.acao.indexOf(indexAtual) == -1 && player1.acao.indexOf(indexAtual) == -1){
-					this.style.backgroundColor = 'green';
+					this.style.backgroundImage = "url('../img/bolinha.png')";
 					player2.acao.push(indexAtual);
 					calcularResultado(player2.acao,arrBase.res1,player2.nome);
 					calcularResultado(player2.acao,arrBase.res2,player2.nome);

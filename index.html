@@ -22,16 +22,28 @@
 			width: 600px;
 			height: 600px;
 		}
-		h2{
+		.center h2{
 			font-size: 20px;
 			padding: 5px;
-			border: 2px solid black;
+			border: 1px solid black;
 			border-radius: 10px;
 			font-family: monospace;
-			background-color: red;
+			color: red;
 		}
 		.center h2:nth-of-type(2){
-			background-color: green;
+			color: black;
+		}
+		.box{
+			width: calc(100% / 3); 
+			height: calc(100% / 3); 
+			border: 1px solid black; 
+			float: left; 
+			background-size: 60% 60%;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.box:hover{
+			background-color: rgba(167, 165, 165, 0.5);
 		}
 	</style>
 </head>
@@ -45,17 +57,17 @@
 		<br>
 		<br>
 		<div class="box-geral">	
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="border-top: none; border-left: none;" class="box"></div>
+			<div style="border-top: none;" class="box"></div>
+			<div style="border-top: none; border-right: none;" class="box"></div>
 			<div style="clear: both;"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="border-left: none;" class="box"></div>
+			<div class="box"></div>
+			<div style="border-right: none;" class="box"></div>
 			<div style="clear: both;"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
-			<div style="width: calc(100% / 3); height: calc(100% / 3); border: 1px solid black; float: left;" class="box"></div>
+			<div style="border-bottom: none; border-left: none;" class="box"></div>
+			<div style="border-bottom: none;" class="box"></div>
+			<div style="border-bottom: none; border-right: none;" class="box"></div>
 			<div style="clear: both;"></div>
 		</div>	
 	</div>	
